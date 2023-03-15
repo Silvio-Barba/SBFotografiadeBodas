@@ -1,0 +1,43 @@
+@use './variables';
+@use './header';
+@use './footer';
+@use './index';
+@use './propuesta';
+@use './bodas';
+@use './portfolio';
+@use './contacto';
+@use './mqueries';
+
+/* AJUSTES GENERALES */
+* { 
+    margin: 0;
+    padding: 0;}
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Sans Symbols 2';
+}
+
+body{
+    width: 100vw;
+}
+.gray {
+    background-color: variables.$gray;
+}
+.crema{
+    background-color: variables.$crema;
+}
+.imagen{
+    width: 800px;
+}
+.imgtxt {
+    width: 500px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+
+/* MEDIA QUERIES */

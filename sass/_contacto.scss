@@ -1,0 +1,146 @@
+@use './variables';
+
+.form{
+    background-image: url(../img/_SB_9348-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: variables.$big;
+    
+
+    .form_title{  
+        text-align: center;
+        padding-top: 5rem;
+        color: variables.$crema;
+        
+    }
+    .form_subtitle{
+        font-size: 3.5rem;
+        align-content: center;
+        padding: 10px;
+        font-family: variables.$small;
+        color: variables.$crema;
+
+    }
+    .sectioncontacto{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        .cajadecontacto{
+            width: 500px;
+            
+            
+            .formulario{
+                display: flex;
+                flex-direction: column;
+                label{
+                    font-size: 2rem;
+                    color: variables.$crema;
+                }
+                input{
+                    font-family: 'Julius Sans One', sans-serif;
+                    font-size: 1.5rem;
+                    height: 4rem;
+                    width: 500px;
+                }
+                textarea{
+                    font-family: 'Julius Sans One', sans-serif;
+                    font-size: 1.5rem;
+                    width: 500px;
+                    height:227px;
+                    padding:5px;
+                }
+                .botones{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 20px;
+                    padding: 5px;
+                    font-size:2rem;
+                    font-family: variables.$small;
+                    border-radius: 10px;
+                    .boton{
+                        width: 170px;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .cajadecontacto2{
+            padding: 20px;
+            ul{
+                margin-top: 10rem;
+                font-size: 3rem;
+                font-style: italic;
+                font-family: 'Julius Sans One', sans-serif;
+            }
+        }
+    }
+    section{
+        div{
+            p{
+
+            }
+        }
+    }
+}
+
+/* AJUSTES FORMULARIO COPIADO */
+.contact-form {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	label {
+		color: black;
+		margin-bottom: 10px;
+	}
+	.heading {
+		font-size: 24px;
+		color: black;
+		margin-bottom: 12px;
+		font-weight: bold;
+		display: block;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+	}
+	button[type="submit"] {
+		background-color: #ff6384;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		padding: 10px 20px;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	button[type="submit"]:hover {
+		transform: scale(1.1);
+		transition: transform 0.3s ease-in-out;
+	}
+}
+textarea {
+	resize: none;
+	height: 80px;
+	width: 200px;
+}
+.contact-form input, .contact-form textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+	outline: none;
+	box-shadow: 0 0 5px #ff6384;
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
+}

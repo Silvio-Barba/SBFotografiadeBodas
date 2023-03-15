@@ -1,0 +1,23 @@
+@use './variables';
+
+/*--------------- HEADER------------------ */
+.navbar-collapse {
+    justify-content: right;
+    flex-grow: unset;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.logosilvio {
+    max-height: 84.76px;}
+.navbar-toggler {
+    margin-right: 5rem;
+    }
+    a {
+    text-decoration: none;
+    margin: 5px 10px;
+    color: variables.$negro;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+

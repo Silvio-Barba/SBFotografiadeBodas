@@ -1,0 +1,42 @@
+@use './variables';
+
+main{
+    .intro{
+        display: grid;
+        .imgtxt2{
+            justify-self: center;
+            align-self: center;
+            width: 75rem;
+            margin-top: 2rem;
+        }
+}
+}
+
+#galerias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    .galeriasdebodas{
+        width: 500px;
+    
+    }
+}
+section {
+	.article3 {
+		margin: 25px;
+		font-size: 2rem;
+		display: flex;
+		justify-content: space-evenly;
+		font-family: 'Julius Sans One', sans-serif;
+	}
+}
+.hr4 {
+    margin: 50px;
+    }
+
+
+@media screen and (max-width: 800px) {
+.intro{
+    .imgtxt2{width: 600px;}}
+}

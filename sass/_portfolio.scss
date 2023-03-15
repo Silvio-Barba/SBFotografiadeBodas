@@ -1,0 +1,40 @@
+@use './variables';
+
+@mixin columna () {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;}
+
+main{
+    .columna{
+        @include columna();
+    }
+}
+
+.txtport {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: variables.$small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#carusia {
+    background-color: variables.$gray;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item {
+    max-width: 1400px;
+    width: 97vw;
+    transition: variables.$carousel-transition-duration;
+}
+
+.carousel {
+    padding-bottom: 30px;
+}
