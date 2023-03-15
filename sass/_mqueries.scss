@@ -30,9 +30,9 @@
 }
 }
 
-
-@media screen and (min-width: variables.$desktop-width) and (max-width: 1522px) {
     // Estilos para pantallas con ancho mínimo de 1200px
+@media screen and (min-width: variables.$desktop-width) and (max-width: 1522px) {
+
 /* Index */
 main{
     #grid-container {
@@ -110,8 +110,6 @@ main{
             .textopropuesta{font-size: 2rem;}
         }
     }
-}
-
 /* Bodas */
 main{
     .intro{
@@ -130,10 +128,12 @@ main{
         }
     }
 }
+}
 
 
+    // Estilos para pantallas con ancho entre 1024px y 1200px
 @media screen and (min-width: variables.$tablet-width) and (max-width: variables.$desktop-width) {
-    // Estilos para pantallas con ancho entre 1025px y 1200px
+
     
 /* index */
 .logosilvio {
@@ -192,11 +192,22 @@ main{
                     .txt_lft{
                         font-size: 2rem;
                         margin: 0px;
+                        padding-top: 0px;
+                        padding-bottom: 0px;
                     }
                 }
             }
             div{
-                .imagen{width: 500px;}
+                .imagen{width: 500px;
+                }
+            }
+            div{
+                .syp1{display: none;
+                }
+            }
+            div{
+                .syp2{display: inline;
+                }
             }
         }
     }
@@ -234,28 +245,235 @@ main{
             }
         }
     }
+}
+/* Propuesta */
+.foto_wide{
+    width: 100vw;
+}
+main{
+    .wide_img_with_title{
+        div{
+            .imgtxt{
+                width: 400px;
+            }
+        }
+        .propuesta{
+            width: 100vw;
+            padding: 0px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            
+            div{
+                .img600{
+                    width: 800px;
+                    padding: 1rem;
+                }
+            }
+            .columna{
+                .textopropuesta{
+                    margin-bottom: 30px;
+                    font-size: 2.2rem;
+                }
+                
+            }
+        }
 
-
-
+        
+            /* section 5 */
+        .propuesta2{
+            .tresfotos{
+                div {
+                .imagen3 {
+                    width: 330px;}
+                }
+            }
+            .textopropuesta{
+                margin: 0px;
+                padding-top: 0px;
+                padding-left: 4rem;
+                padding-right: 4rem;
+                padding-bottom: 4rem;
+                font-size: 2.2rem;
+            }
+        }
 }
 }
-
+}
     
-
-@media screen and (min-width: variables.$mobile-width) and (max-width: variables.$tablet-width) {
     // Estilos para pantallas con ancho entre 768px y 1024px
-
-
-    .propuesta{
-        flex-direction: column;
-        padding-bottom: 50px;
-    }
+@media screen and (min-width: variables.$mobile-width) and (max-width: variables.$tablet-width) {
+/* Index */
+    main{
+        /* section 1 */
+        #grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 15% 10% 40% 1fr;
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            align-items: center;
+            justify-items: center;
+            padding-bottom: 3rem;
     
-    .textopropuesta {
-        padding-top: 0px;
+            .intro{
+                    font-size: 5rem;
+                    margin-bottom: 0px;
+            }
+            .div4_main{
+                p{
+                    font-size: 2rem;
+                }
+            }
+            .div5_main{
+                flex-direction: column;
+                div{
+                    .imagen{
+                        width: 500px;
+                    }
+                }
+                div{
+                    .txtindex{
+                        margin-bottom: 0px;
+                        padding: 1.5rem;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
     }
-    .textogrande {font-size: 4rem;}
-    .parrafos{
+
+ /* section 2 */
+ section{
+    .section2index{
+        flex-direction: column;
+        padding: 30px;
+        .divconflex{
+            .divconflex2{
+                p{
+                    font-size: 5.5rem;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+            div{
+                .txt_lft{
+                    font-size: 2rem;
+                    margin: 0px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    padding-left:10px;
+                }
+            }
+        }
+        div{
+            .imagen{width: 500px;
+                margin-top: 30px;
+            }
+        }
+        div{
+            .syp1{display: none;
+            }
+        }
+        div{
+            .syp2{display: inline;
+            }
+        }
+    }
+}
+
+/* section 4 */
+.section4index{
+    .article-container{
+        flex-direction: column;
+        align-items: center;
+        figure{
+            .imagen{
+                width: 500px;
+            }
+        }
+        .gracias{
+            .parrafogracias{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 5.5rem;
+            }
+        }
+    }
+}
+
+.logosilvio {
+    max-height: 54.76px;
+}
+footer{
+    .iconos {
+		height: 30px;
+		margin: 0px 16px;
+	}
+    .ul2{font-size: 12px;
+
+    }
+}
+
+/* Propuesta */
+.foto_wide{
+    width: 100vw;
+}
+
+    .wide_img_with_title{
+        .propuesta{
+            flex-direction: column;
+            padding: 30px;
+            div{
+                .img600{
+                    width: 768px;
+                    padding: 1rem;
+                }
+            }
+        }
+    
+    .propuesta2{
+        .tresfotos{
+            flex-direction: column;
+            .imagen3{
+                width: 750px;
+            }
+        }
+        .textopropuesta{
+            padding: 0px;
+            margin-bottom: 50px;            
+        }
+    }
+}
+
+/* footer */
+
+footer{
+    flex-direction: column;
+    div{
+        a{
+            .logosilvioabajo{
+                margin-top: 16px;
+            }
+        }
+        .ul2{
+            align-items: center;
+        }
+        ul{
+            a{
+                .iconos{
+                    margin: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+/* revisar */
+
+        .parrafos{
         padding: 40px;
     }
     .article-container {
@@ -282,9 +500,9 @@ main{
     
     }
 
-
-@media screen and (max-width: variables.$mobile-width) {
 // Estilos para pantallas con ancho máximo de 767px
+@media screen and (max-width: variables.$mobile-width) {
+
 
     .div5_main {flex-direction: column;}
     .logosilvioabajo {display: none;}

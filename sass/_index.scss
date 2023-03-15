@@ -82,6 +82,9 @@ main
             display: flex;
             flex-direction: row;
             align-items: center;
+            div{
+                .syp2{display: none;}
+            }
             .divconflex {
                 display: flex;
                 flex-direction: column;
@@ -97,12 +100,15 @@ main
                         @include textogrande();
                         padding: 10px;
                     }
+                    
                 }
                 div{
                     .txt_lft{
                         @include txt_left();
                     }
+
                 }
+                
             }
         }
     }

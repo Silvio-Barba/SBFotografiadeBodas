@@ -118,6 +118,9 @@ section .section2index {
   flex-direction: row;
   align-items: center;
 }
+section .section2index div .syp2 {
+  display: none;
+}
 section .section2index .divconflex {
   display: flex;
   flex-direction: column;
@@ -551,17 +554,15 @@ textarea {
   .wide_img_with_title .propuesta2 .textopropuesta {
     font-size: 2rem;
   }
+  /* Bodas */
+  main .intro .imgtxt2 {
+    width: 55rem;
+  }
+  /* Portfolio */
+  main .columna .txtport {
+    font-size: 2.5rem;
+  }
 }
-/* Bodas */
-main .intro .imgtxt2 {
-  width: 55rem;
-}
-
-/* Portfolio */
-main .columna .txtport {
-  font-size: 2.5rem;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   /* index */
   .logosilvio {
@@ -606,9 +607,17 @@ main .columna .txtport {
   main section .section2index .divconflex div .txt_lft {
     font-size: 2rem;
     margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   main section .section2index div .imagen {
     width: 500px;
+  }
+  main section .section2index div .syp1 {
+    display: none;
+  }
+  main section .section2index div .syp2 {
+    display: inline;
   }
   main .section4index .article-container figure .imagen {
     width: 500px;
@@ -628,18 +637,163 @@ main .columna .txtport {
   main section div figure figcaption {
     font-size: 1.4rem;
   }
+  /* Propuesta */
+  .foto_wide {
+    width: 100vw;
+  }
+  main .wide_img_with_title {
+    /* section 5 */
+  }
+  main .wide_img_with_title div .imgtxt {
+    width: 400px;
+  }
+  main .wide_img_with_title .propuesta {
+    width: 100vw;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main .wide_img_with_title .propuesta div .img600 {
+    width: 800px;
+    padding: 1rem;
+  }
+  main .wide_img_with_title .propuesta .columna .textopropuesta {
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos div .imagen3 {
+    width: 330px;
+  }
+  main .wide_img_with_title .propuesta2 .textopropuesta {
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    font-size: 2.2rem;
+  }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .propuesta {
+  /* Index */
+  main {
+    /* section 1 */
+  }
+  main #grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 15% 10% 40% 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 3rem;
+  }
+  main #grid-container .intro {
+    font-size: 5rem;
+    margin-bottom: 0px;
+  }
+  main #grid-container .div4_main p {
+    font-size: 2rem;
+  }
+  main #grid-container .div5_main {
     flex-direction: column;
-    padding-bottom: 50px;
   }
-  .textopropuesta {
+  main #grid-container .div5_main div .imagen {
+    width: 500px;
+  }
+  main #grid-container .div5_main div .txtindex {
+    margin-bottom: 0px;
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  /* section 2 */
+  section .section2index {
+    flex-direction: column;
+    padding: 30px;
+  }
+  section .section2index .divconflex .divconflex2 p {
+    font-size: 5.5rem;
+    margin: 0px;
+    padding: 0px;
+  }
+  section .section2index .divconflex div .txt_lft {
+    font-size: 2rem;
+    margin: 0px;
     padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
   }
-  .textogrande {
-    font-size: 4rem;
+  section .section2index div .imagen {
+    width: 500px;
+    margin-top: 30px;
   }
+  section .section2index div .syp1 {
+    display: none;
+  }
+  section .section2index div .syp2 {
+    display: inline;
+  }
+  /* section 4 */
+  .section4index .article-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section4index .article-container figure .imagen {
+    width: 500px;
+  }
+  .section4index .article-container .gracias .parrafogracias {
+    font-size: 2rem;
+  }
+  .section4index .article-container .gracias p {
+    font-size: 5.5rem;
+  }
+  .logosilvio {
+    max-height: 54.76px;
+  }
+  footer .iconos {
+    height: 30px;
+    margin: 0px 16px;
+  }
+  footer .ul2 {
+    font-size: 12px;
+  }
+  /* Propuesta */
+  .foto_wide {
+    width: 100vw;
+  }
+  .wide_img_with_title .propuesta {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .wide_img_with_title .propuesta div .img600 {
+    width: 768px;
+    padding: 1rem;
+  }
+  .wide_img_with_title .propuesta2 .tresfotos {
+    flex-direction: column;
+  }
+  .wide_img_with_title .propuesta2 .tresfotos .imagen3 {
+    width: 750px;
+  }
+  .wide_img_with_title .propuesta2 .textopropuesta {
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  /* footer */
+  footer {
+    flex-direction: column;
+  }
+  footer div a .logosilvioabajo {
+    margin-top: 16px;
+  }
+  footer div .ul2 {
+    align-items: center;
+  }
+  footer div ul a .iconos {
+    margin: 16px;
+  }
+  /* revisar */
   .parrafos {
     padding: 40px;
   }
