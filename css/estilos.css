@@ -605,6 +605,7 @@ main .columna .txtport {
   }
   main section .section2index .divconflex div .txt_lft {
     font-size: 2rem;
+    margin: 0px;
   }
   main section .section2index div .imagen {
     width: 500px;
