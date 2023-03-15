@@ -850,6 +850,9 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   /* Index */
+  .logosilvio {
+    max-height: 54.76px;
+  }
   main #grid-container {
     padding-top: 5rem;
     padding-bottom: 0px;
@@ -939,6 +942,53 @@ textarea {
   footer div ul a .iconos {
     height: 30px;
     margin: 16px;
+  }
+  /* Propuesta *****************************/
+  .foto_wide {
+    width: 100vw;
+  }
+  main .wide_img_with_title div .imgtxt {
+    width: 400px;
+  }
+  main .wide_img_with_title .propuesta {
+    flex-direction: column;
+    padding: 7px;
+  }
+  main .wide_img_with_title .propuesta div .img600 {
+    width: 590px;
+  }
+  main .wide_img_with_title .propuesta .columna .textopropuesta {
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 2.2rem;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos {
+    flex-direction: column;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos .imagen3 {
+    width: 590px;
+  }
+  main .wide_img_with_title .propuesta2 .textopropuesta {
+    padding: 0px;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 2.2rem;
+  }
+  /* Bodas */
+  section .intro .imgtxt2 {
+    width: 400px;
+  }
+  section #galerias div figcaption {
+    font-weight: normal;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+  }
+  /* Portfolio */
+  .columna div .imgtxt {
+    width: 400px;
+  }
+  .columna .txtport {
+    font-size: 2.2rem;
   }
 }
 /* @media screen and (max-width: 650px) {
