@@ -246,7 +246,7 @@ main{
         }
     }
 }
-/* Propuesta */
+/* Propuesta ******************************/
 .foto_wide{
     width: 100vw;
 }
@@ -416,12 +416,17 @@ footer{
     }
 }
 
-/* Propuesta */
+/* Propuesta *****************************/ 
 .foto_wide{
     width: 100vw;
 }
 
     .wide_img_with_title{
+        div{
+            .imgtxt{
+                width: 400px;
+            }
+        }
         .propuesta{
             flex-direction: column;
             padding: 30px;
@@ -430,6 +435,13 @@ footer{
                     width: 768px;
                     padding: 1rem;
                 }
+            }
+            .columna{
+                .textopropuesta{
+                    margin-bottom: 30px;
+                    font-size: 2.2rem;
+                }
+                
             }
         }
     
@@ -442,7 +454,8 @@ footer{
         }
         .textopropuesta{
             padding: 0px;
-            margin-bottom: 50px;            
+            margin-bottom: 50px;
+            font-size: 2.2rem;
         }
     }
 }
@@ -470,6 +483,42 @@ footer{
     }
 }
 
+/* Bodas */
+section{
+    .intro{
+        .imgtxt2{
+            width: 600px;
+        }
+    }
+    #galerias{
+        div{
+            figcaption{
+                font-weight: normal;
+                font-size: 1.7rem;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+.teinvito{
+    .article3{
+        font-weight: bold;
+    }
+    div{
+        .figcaption{
+            font-weight: normal;
+            margin-top: 1.8rem;
+            margin-bottom: 50px;
+        }
+        
+    }
+    #videocontainer{
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+        
+    }
+}
 
 /* revisar */
 
@@ -502,37 +551,132 @@ footer{
 
 // Estilos para pantallas con ancho máximo de 767px
 @media screen and (max-width: variables.$mobile-width) {
-
-
-    .div5_main {flex-direction: column;}
-    .logosilvioabajo {display: none;}
-    
-footer .iconos {
-    height: 30px;
-    margin: 0px;}
-    footer ul .ul2{font-size: 1rem;}
-.txtport {font-size: 2rem;}
-
-.tresfotos{
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;}
-.imagen3{width: 600px;}
-.intro{
-    .imgtxt2{width: 600px;}}
-    .imagen {
-        width: 400px;}
-    .form_title {font-size: 3rem;}
-    .imagen3{width: 400px;}
-    .navbar-toggler-icon {
-        width: 2em;
-        height: 2em;
+/* Index */
+main {
+    #grid-container{
+        padding-top: 5rem;
+        padding-bottom: 0px;
+        .intro{
+            font-size: 5rem;
         }
+        .div4_main{
+            p{font-size: 2rem;}
+            
+        }
+        .div5_main{
+            flex-direction: column;
+            div{
+                .imagen{
+                    width: 590px;
+                }
+                .txtindex{
+                    font-size: 2rem;
+                    padding: 2rem;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        grid-template-rows: 6.5% 10% 40% 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+}
 }
 
+ /* section 2 */
+section{
+    .section2index{
+        flex-direction: column;
+        padding: 30px;
+        .divconflex{
+            .divconflex2{
+                p{
+                    font-size: 4rem;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+            div{
+                .txt_lft{
+                    font-size: 2rem;
+                    margin: 0px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    padding-left:10px;
+                }
+            }
+        }
+        div{
+            .imagen{width: 500px;
+                margin-top: 30px;
+            }
+        }
+        div{
+            .syp1{display: none;
+            }
+        }
+        div{
+            .syp2{display: inline;
+            }
+        }
+    }
+}
+section{
+    .article3{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.section4index{
+    .article-container{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        padding: 30px;
+        .gracias{
+            padding: 0px;
+            p{
+                font-size: 4rem;
+            }
+            hr{
+                margin-top: 0px;
+            }
+            .parrafogracias{
+                font-size: 30px;
+            }
+        }
+        figure{
+            .imagen{
+                width: 590px;
+            }
+        }
+    }
+}
+/* footer */
+
+footer{
+    flex-direction: column;
+    div{
+        a{
+            .logosilvioabajo{
+                margin-top: 16px;
+            }
+        }
+        .ul2{
+            align-items: center;
+        }
+        ul{
+            a{
+                .iconos{
+                    height: 30px;
+                    margin: 16px;
+                }
+            }
+        }
+    }
+}
+}
     
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     footer {
         display: flex;
         flex-direction: column;
@@ -578,4 +722,4 @@ footer .iconos {
         font-family: variables.$big
     }
     .logosilvio {max-height: 60px}
-}
+} */
