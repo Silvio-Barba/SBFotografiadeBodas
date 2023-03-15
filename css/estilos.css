@@ -870,7 +870,7 @@ textarea {
     flex-direction: column;
   }
   main #grid-container .div5_main div .imagen {
-    width: 590px;
+    width: 98vw;
   }
   main #grid-container .div5_main div .txtindex {
     font-size: 2rem;
@@ -895,7 +895,7 @@ textarea {
     padding-left: 10px;
   }
   section .section2index div .imagen {
-    width: 500px;
+    width: 95vw;
     margin-top: 30px;
   }
   section .section2index div .syp1 {
@@ -927,7 +927,7 @@ textarea {
     font-size: 30px;
   }
   .section4index .article-container figure .imagen {
-    width: 590px;
+    width: 98vw;
   }
   /* footer */
   footer {
@@ -991,53 +991,84 @@ textarea {
     font-size: 2.2rem;
   }
 }
-/* @media screen and (max-width: 650px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .imgtxt {
-        padding: 0px;}
-    .textopropuesta{
-        padding: 0px;
-    }
-    .ul2 {
-        margin-top: 10px;
-        text-align: center;
-        font-family: 'Julius Sans One', sans-serif;}
-    .txtport {
-        font-size: 1rem;}
-    .imgtxt {
-        width: 250px;} 
-    }
-
-@media screen and (max-width: 440px) {
-        .imagen {
-            width: 340px;
-        }
-        .imagen3 {
-            width: 340px;
-        }
-        .intro {
-            font-size: 3rem;
-            font-family: variables.$big
-        }
+@media screen and (max-width: 480px) {
+  main #grid-container .intro {
+    font-size: 3rem;
+  }
+  main #grid-container .div4_main {
+    font-size: 1.8rem;
+  }
+  main section .section2index div .imagen {
+    margin-top: 15px;
+  }
+  main section .article3 {
+    font-size: 18px;
+  }
+  main section .article3 figure .recientes {
+    width: 90vw;
+  }
+  main section .article3 figure figcaption {
+    font-size: 15px;
+  }
+  main .section4index .article-container .gracias .parrafogracias {
+    font-size: 20px;
+  }
+  main .section4index .article-container .gracias .writemebutton {
+    margin-right: 10px;
+  }
+  /* propuesta */
+  main .wide_img_with_title div .imgtxt {
+    width: 300px;
+  }
+  main .wide_img_with_title .propuesta {
+    flex-direction: column;
+    padding: 7px;
+  }
+  main .wide_img_with_title .propuesta div .img600 {
+    width: 95vw;
+  }
+  main .wide_img_with_title .propuesta .columna .textopropuesta {
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 1.8rem;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos {
+    flex-direction: column;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos .imagen3 {
+    width: 95vw;
+  }
+  main .wide_img_with_title .propuesta2 .textopropuesta {
+    padding: 0px;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 1.8rem;
+  }
+  /* portfolio */
+  .columna div .imgtxt {
+    width: 380px;
+  }
+  .columna .txtport {
+    font-size: 1.8rem;
+  }
+  /* CONTACTO */
+  .form .form_title {
+    font-size: 20px;
+  }
+  .form .form_subtitle {
+    font-size: 17px;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario {
+    display: flex;
+    align-items: center;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario input {
+    width: 95vw;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario textarea {
+    width: 95vw;
+  }
 }
-
-@media screen and (max-width: 381px) {
-    .imagen {
-        width: 300px;
-    }
-    .imagen3 {
-        width: 300px;
-    }
-    .intro {
-        font-size: 2.5rem;
-        font-family: variables.$big
-    }
-    .logosilvio {max-height: 60px}
-} */
 /* AJUSTES GENERALES */
 * {
   margin: 0;

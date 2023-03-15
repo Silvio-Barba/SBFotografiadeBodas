@@ -570,7 +570,7 @@ main {
             flex-direction: column;
             div{
                 .imagen{
-                    width: 590px;
+                    width: 98vw;
                 }
                 .txtindex{
                     font-size: 2rem;
@@ -608,7 +608,7 @@ section{
             }
         }
         div{
-            .imagen{width: 500px;
+            .imagen{width: 95vw;
                 margin-top: 30px;
             }
         }
@@ -648,7 +648,7 @@ section{
         }
         figure{
             .imagen{
-                width: 590px;
+                width: 98vw;
             }
         }
     }
@@ -753,63 +753,134 @@ section{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 }
     
-/* @media screen and (max-width: 650px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .imgtxt {
-        padding: 0px;}
-    .textopropuesta{
-        padding: 0px;
-    }
-    .ul2 {
-        margin-top: 10px;
-        text-align: center;
-        font-family: 'Julius Sans One', sans-serif;}
-    .txtport {
-        font-size: 1rem;}
-    .imgtxt {
-        width: 250px;} 
-    }
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 440px) {
-        .imagen {
-            width: 340px;
-        }
-        .imagen3 {
-            width: 340px;
-        }
+main{
+    #grid-container{
         .intro {
             font-size: 3rem;
-            font-family: variables.$big
         }
+        .div4_main{
+            font-size: 1.8rem;
+        }
+    }
+    section{
+        .section2index{
+            div{
+                .imagen{
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    section{
+        .article3{
+            font-size: 18px;
+            figure{
+                .recientes{
+                    width: 90vw;
+                }
+                figcaption{
+                    font-size: 15px;
+                }
+            }
+            }
+    }
+    .section4index{
+        .article-container{
+            .gracias{
+                .parrafogracias{
+                    font-size: 20px;
+                }
+                .writemebutton{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
 }
 
-@media screen and (max-width: 381px) {
-    .imagen {
-        width: 300px;
+/* propuesta */
+
+main{
+    .wide_img_with_title{
+        div{
+            .imgtxt{
+                width: 300px;
+            }
+        }
+        .propuesta{
+            flex-direction: column;
+            padding: 7px;
+            div{
+                .img600{
+                    width: 95vw;
+                    
+                }
+            }
+            .columna{
+                .textopropuesta{
+                    margin: 30px;
+                    margin-top:0px;
+                    font-size: 1.8rem;
+                }
+                
+            }
+        }
+    
+    .propuesta2{
+        .tresfotos{
+            flex-direction: column;
+            .imagen3{
+                width: 95vw;
+            }
+        }
+        .textopropuesta{
+            padding: 0px;
+            margin: 30px;
+            margin-top: 0px;
+            font-size: 1.8rem;
+        }
     }
-    .imagen3 {
-        width: 300px;
+}
+}
+/* portfolio */
+
+.columna{
+    div{
+        .imgtxt{
+            width: 380px;
+        }
     }
-    .intro {
-        font-size: 2.5rem;
-        font-family: variables.$big
+    .txtport{
+        font-size: 1.8rem;
     }
-    .logosilvio {max-height: 60px}
-} */
+}
+
+/* CONTACTO */
+.form{
+    .form_title{
+        font-size: 20px;
+    }
+    .form_subtitle{
+        font-size: 17px;
+    }
+    .sectioncontacto{
+        .cajadecontacto{
+            .formulario{
+                display: flex;
+                align-items: center;
+                input{
+                    width: 95vw;
+                }
+                textarea{
+                    width: 95vw;
+                }
+            }
+        }
+    }
+}
+
+}
