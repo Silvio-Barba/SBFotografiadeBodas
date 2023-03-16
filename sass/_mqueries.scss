@@ -1041,7 +1041,54 @@ section{
     }
 }
 
+/* Portfolio */
+main{
+    .columna{
+        div{
+            .imgtxt{
+                width: 250px;
+            }
+        }
+        .txtport{
+            font-size: 1.2rem;
+            margin: 2rem;
+            margin-top: 0px;
+        }
+    }
+    #carusia{
+        padding: 0px;
+    }
+}
 
-
+.form{
+    .form_title{
+        font-size: 1.5rem;
+    }
+    .form_subtitle{
+        font-size: 17px;
+    }
+    .sectioncontacto{
+        .cajadecontacto{
+            .formulario{
+                label{
+                    font-size: 1.2rem;
+                }
+                display: flex;
+                align-items: center;
+                input{
+                    width: 90vw;
+                }
+                textarea{
+                    width: 90vw;
+                }
+                .botones{
+                    .boton{
+                        width: 12rem;
+                    }
+                }
+            }
+        }
+    }
+}
 
 }

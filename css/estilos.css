@@ -1172,6 +1172,40 @@ textarea {
     margin: 0px;
     font-size: 1rem;
   }
+  /* Portfolio */
+  main .columna div .imgtxt {
+    width: 250px;
+  }
+  main .columna .txtport {
+    font-size: 1.2rem;
+    margin: 2rem;
+    margin-top: 0px;
+  }
+  main #carusia {
+    padding: 0px;
+  }
+  .form .form_title {
+    font-size: 1.5rem;
+  }
+  .form .form_subtitle {
+    font-size: 17px;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario {
+    display: flex;
+    align-items: center;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario label {
+    font-size: 1.2rem;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario input {
+    width: 90vw;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario textarea {
+    width: 90vw;
+  }
+  .form .sectioncontacto .cajadecontacto .formulario .botones .boton {
+    width: 12rem;
+  }
 }
 /* AJUSTES GENERALES */
 * {
