@@ -1099,24 +1099,23 @@ textarea {
   .form .sectioncontacto .cajadecontacto .formulario .botones .boton {
     width: 12rem;
   }
+  /* Bodas */
+  section .intro .imgtxt2 {
+    width: 300px;
+  }
+  section #galerias .galeriasdebodas {
+    width: 90vw;
+  }
+  section #galerias .galflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section #galerias div figcaption {
+    margin: 0px;
+    font-size: 1.5rem;
+  }
 }
-/* Bodas */
-section .intro .imgtxt2 {
-  width: 300px;
-}
-section #galerias .galeriasdebodas {
-  width: 90vw;
-}
-section #galerias .galflex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-section #galerias div figcaption {
-  margin: 0px;
-  font-size: 1.5rem;
-}
-
 @media screen and (max-width: 320px) {
   /* INDEX */
   .logosilvio {
@@ -1209,8 +1208,12 @@ section #galerias div figcaption {
     margin-bottom: 2rem;
   }
   /* Bodas */
-  section .intro .imgtxt2 {
-    width: 220px;
+  section {
+    /* .intro{
+        .imgtxt2{
+            width: 220px;
+        }
+    } */
   }
   section #galerias .galeriasdebodas {
     width: 90vw;

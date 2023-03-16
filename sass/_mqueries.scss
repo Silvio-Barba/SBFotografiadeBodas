@@ -912,7 +912,7 @@ main{
 }
 
 
-}
+
 /* Bodas */
 section{
     .intro{
@@ -938,7 +938,7 @@ section{
         }
     }
 }
-
+}
 
 
 @media screen and (max-width: 320px){
@@ -1080,11 +1080,11 @@ main{
 
 /* Bodas */
 section{
-    .intro{
+    /* .intro{
         .imgtxt2{
             width: 220px;
         }
-    }
+    } */
     #galerias{
         .galeriasdebodas{
             width: 90vw;
