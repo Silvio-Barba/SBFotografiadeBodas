@@ -352,7 +352,7 @@ main .columna {
 }
 
 #carusia {
-  background-color: rgb(208, 208, 208);
+  background-color: #FDF0E5;
   padding: 3rem;
   display: flex;
   justify-content: center;
@@ -1070,6 +1070,7 @@ textarea {
   }
   .columna .txtport {
     font-size: 1.8rem;
+    margin-bottom: 0px;
   }
   /* CONTACTO */
   .form .form_title {
