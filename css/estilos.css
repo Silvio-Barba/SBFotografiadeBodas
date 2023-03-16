@@ -973,6 +973,9 @@ textarea {
   section .intro .imgtxt2 {
     width: 400px;
   }
+  section #galerias .galeriasdebodas {
+    width: 90vw;
+  }
   section #galerias div figcaption {
     font-weight: normal;
     font-size: 1.7rem;
