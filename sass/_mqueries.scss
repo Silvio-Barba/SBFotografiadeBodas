@@ -462,26 +462,6 @@ footer{
 
 /* footer */
 
-footer{
-    flex-direction: column;
-    div{
-        a{
-            .logosilvioabajo{
-                margin-top: 16px;
-            }
-        }
-        .ul2{
-            align-items: center;
-        }
-        ul{
-            a{
-                .iconos{
-                    margin: 16px;
-                }
-            }
-        }
-    }
-}
 
 /* Bodas */
 section{
@@ -752,6 +732,29 @@ section{
         font-size: 2.2rem;
     }
 }
+.form{
+    .form_title{
+        font-size: 20px;
+    }
+    .form_subtitle{
+        font-size: 17px;
+    }
+    .sectioncontacto{
+        .cajadecontacto{
+            .formulario{
+                display: flex;
+                align-items: center;
+                input{
+                    width: 80vw;
+                }
+                textarea{
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
+
 
 }
     
@@ -875,9 +878,11 @@ main{
     }
 }
 /* CONTACTO */
+
+
 .form{
     .form_title{
-        font-size: 20px;
+        font-size: 1.5rem;
     }
     .form_subtitle{
         font-size: 17px;
@@ -885,18 +890,28 @@ main{
     .sectioncontacto{
         .cajadecontacto{
             .formulario{
+                label{
+                    font-size: 1.2rem;
+                }
                 display: flex;
                 align-items: center;
                 input{
-                    width: 95vw;
+                    width: 90vw;
                 }
                 textarea{
-                    width: 95vw;
+                    width: 90vw;
+                }
+                .botones{
+                    .boton{
+                        width: 12rem;
+                    }
                 }
             }
         }
     }
 }
+
+
 }
 /* Bodas */
 section{
@@ -932,7 +947,6 @@ section{
     .logosilvio {
         max-height: 50.76px;
     }
-    
 
 main{
     #grid-container{
