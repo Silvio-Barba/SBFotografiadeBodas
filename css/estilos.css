@@ -999,11 +999,24 @@ textarea {
   }
 }
 @media screen and (max-width: 480px) {
+  .navbar-toggler {
+    margin-right: 3rem;
+  }
   main #grid-container .intro {
     font-size: 3rem;
   }
   main #grid-container .div4_main {
     font-size: 1.8rem;
+  }
+  main #grid-container .div5_main {
+    padding: 0px;
+  }
+  main #grid-container .div5_main div .imagen {
+    width: 95vw;
+  }
+  main #grid-container .div5_main div .txtindex {
+    padding: 2.5rem;
+    margin: 0rem;
   }
   main section .section2index div .imagen {
     margin-top: 15px;
@@ -1076,8 +1089,28 @@ textarea {
     width: 95vw;
   }
 }
+/* Bodas */
+section .intro .imgtxt2 {
+  width: 300px;
+}
+section #galerias .galeriasdebodas {
+  width: 90vw;
+}
+section #galerias .galflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section #galerias div figcaption {
+  margin: 0px;
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 320px) {
   /* INDEX */
+  .logosilvio {
+    max-height: 50.76px;
+  }
   main {
     /* section 2 */
     /* Section 3 */
@@ -1097,6 +1130,7 @@ textarea {
   }
   main #grid-container .div5_main div .txtindex {
     font-size: 1.3rem;
+    padding: 1.5rem;
   }
   main section .section2index {
     padding: 1.5rem;

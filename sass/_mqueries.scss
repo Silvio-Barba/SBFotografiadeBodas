@@ -756,6 +756,9 @@ section{
 }
     
 @media screen and (max-width: 480px) {
+    .navbar-toggler {
+        margin-right: 3rem;
+        }
 
 main{
     #grid-container{
@@ -764,6 +767,18 @@ main{
         }
         .div4_main{
             font-size: 1.8rem;
+        }
+        .div5_main{
+            padding: 0px;
+            div{
+                .imagen{
+                    width: 95vw;
+                }
+                .txtindex{
+                    padding: 2.5rem;
+                    margin: 0rem;
+                }
+            }
         }
     }
     section{
@@ -882,10 +897,42 @@ main{
     }
 }
 }
+/* Bodas */
+section{
+    .intro{
+        .imgtxt2{
+            width: 300px;
+        }
+    }
+    #galerias{
+        .galeriasdebodas{
+            width: 90vw;
+        }
+        .galflex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            figcaption{
+                margin: 0px;
+                font-size: 1.5rem;
+                
+            }
+        }
+    }
+}
+
+
 
 @media screen and (max-width: 320px){
 
     /* INDEX */
+    .logosilvio {
+        max-height: 50.76px;
+    }
+    
+
 main{
     #grid-container{
         padding-top: 1.5rem;
@@ -902,6 +949,7 @@ main{
             div{
                 .txtindex{
                     font-size: 1.3rem;
+                    padding: 1.5rem;
                 }
             }
         }
