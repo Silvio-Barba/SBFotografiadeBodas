@@ -310,6 +310,11 @@ main .intro .imgtxt2 {
 }
 #galerias .galeriasdebodas {
   width: 500px;
+  transition: 0.8s;
+}
+#galerias .galeriasdebodas:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 section .article3 {
