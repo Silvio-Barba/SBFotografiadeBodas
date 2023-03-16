@@ -260,7 +260,6 @@ section figure figcaption {
   text-align: left;
   font-size: 3rem;
   font-style: italic;
-  font-weight: bold;
   font-family: "Noto Sans Symbols 2";
 }
 .wide_img_with_title .propuesta2 {
@@ -285,9 +284,8 @@ section figure figcaption {
   text-align: left;
   font-size: 3rem;
   font-style: italic;
-  font-weight: bold;
   font-family: "Noto Sans Symbols 2";
-  padding: 5rem;
+  padding: 2rem;
 }
 
 main .intro {
@@ -334,7 +332,6 @@ main .columna {
 }
 
 .txtport {
-  font-weight: bold;
   font-size: 3rem;
   font-family: "Noto Sans Symbols 2";
   font-style: italic;
