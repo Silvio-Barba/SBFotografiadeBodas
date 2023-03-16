@@ -858,7 +858,6 @@ main{
         font-size: 1.8rem;
     }
 }
-
 /* CONTACTO */
 .form{
     .form_title{
@@ -882,5 +881,167 @@ main{
         }
     }
 }
+}
+
+@media screen and (max-width: 320px){
+
+    /* INDEX */
+main{
+    #grid-container{
+        padding-top: 1.5rem;
+        .intro {
+            font-size: 2.5rem;
+        }
+        .div4_main{
+            padding-top: 1rem;
+            p{
+                width: 300px;
+                font-size: 1.3rem;}
+        }
+        .div5_main{
+            div{
+                .txtindex{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    /* section 2 */
+    section{
+        .section2index{
+            padding: 1.5rem;
+            .divconflex{
+                padding: 0px;
+                .divconflex2{
+                    p{
+                        font-size: 2.5rem;
+                    }
+                    .txt_lft{
+                        font-size: 1.3rem;
+                    }
+                }
+                div{
+                    .txt_lft{
+                        font-size: 1.3rem;
+                    }   
+                }
+            }
+        }
+    }
+/* Section 3 */
+
+    section{
+        .article3{
+            margin: 15px;
+            font-size: 13px;
+            figure{
+                .recientes{
+                    width: 90vw;
+                }
+                figcaption{
+                    font-size: 11px;
+                }
+            }
+            }
+    }
+    .section4index{
+        .article-container{
+            padding: 1.5rem;
+            padding-bottom: 0rem;
+            .gracias{
+                p{
+                    font-size: 2.5rem;
+                }
+                .parrafogracias{
+                    font-size: 1.3rem;
+                }
+                .writemebutton{
+                    width: 100px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+/* Footer */    
+footer{
+    div{
+        a{
+            .logosilvioabajo{
+                margin: 0px;
+            }
+        }
+        .ul2{
+            font-size: 1rem;
+        }
+        ul{
+            a{
+                .iconos{
+                    height: 30px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+
+/* Propuesta */
+
+main{
+    .wide_img_with_title{
+        div{
+            .imgtxt{
+                width: 220px;
+            }
+        }
+        .propuesta{
+            .columna{
+                .textopropuesta{
+                    margin: 0px 15px 15px;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .propuesta2{
+            .textopropuesta{
+                margin: 0px 15px 15px;
+                font-size: 1.2rem;
+            }
+            .tresfotos{
+                margin-bottom: 2rem;
+            }
+
+        }
+    }
+}
+
+/* Bodas */
+section{
+    .intro{
+        .imgtxt2{
+            width: 220px;
+        }
+    }
+    #galerias{
+        .galeriasdebodas{
+            width: 90vw;
+        }
+        .galflex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            figcaption{
+                margin: 0px;
+                font-size: 1rem;
+                
+            }
+        }
+    }
+}
+
+
+
 
 }

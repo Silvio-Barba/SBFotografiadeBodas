@@ -1069,6 +1069,110 @@ textarea {
     width: 95vw;
   }
 }
+@media screen and (max-width: 320px) {
+  /* INDEX */
+  main {
+    /* section 2 */
+    /* Section 3 */
+  }
+  main #grid-container {
+    padding-top: 1.5rem;
+  }
+  main #grid-container .intro {
+    font-size: 2.5rem;
+  }
+  main #grid-container .div4_main {
+    padding-top: 1rem;
+  }
+  main #grid-container .div4_main p {
+    width: 300px;
+    font-size: 1.3rem;
+  }
+  main #grid-container .div5_main div .txtindex {
+    font-size: 1.3rem;
+  }
+  main section .section2index {
+    padding: 1.5rem;
+  }
+  main section .section2index .divconflex {
+    padding: 0px;
+  }
+  main section .section2index .divconflex .divconflex2 p {
+    font-size: 2.5rem;
+  }
+  main section .section2index .divconflex .divconflex2 .txt_lft {
+    font-size: 1.3rem;
+  }
+  main section .section2index .divconflex div .txt_lft {
+    font-size: 1.3rem;
+  }
+  main section .article3 {
+    margin: 15px;
+    font-size: 13px;
+  }
+  main section .article3 figure .recientes {
+    width: 90vw;
+  }
+  main section .article3 figure figcaption {
+    font-size: 11px;
+  }
+  main .section4index .article-container {
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+  }
+  main .section4index .article-container .gracias p {
+    font-size: 2.5rem;
+  }
+  main .section4index .article-container .gracias .parrafogracias {
+    font-size: 1.3rem;
+  }
+  main .section4index .article-container .gracias .writemebutton {
+    width: 100px;
+    margin: 0px;
+  }
+  /* Footer */
+  footer div a .logosilvioabajo {
+    margin: 0px;
+  }
+  footer div .ul2 {
+    font-size: 1rem;
+  }
+  footer div ul a .iconos {
+    height: 30px;
+    margin: 10px;
+  }
+  /* Propuesta */
+  main .wide_img_with_title div .imgtxt {
+    width: 220px;
+  }
+  main .wide_img_with_title .propuesta .columna .textopropuesta {
+    margin: 0px 15px 15px;
+    font-size: 1.2rem;
+  }
+  main .wide_img_with_title .propuesta2 .textopropuesta {
+    margin: 0px 15px 15px;
+    font-size: 1.2rem;
+  }
+  main .wide_img_with_title .propuesta2 .tresfotos {
+    margin-bottom: 2rem;
+  }
+  /* Bodas */
+  section .intro .imgtxt2 {
+    width: 220px;
+  }
+  section #galerias .galeriasdebodas {
+    width: 90vw;
+  }
+  section #galerias .galflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section #galerias div figcaption {
+    margin: 0px;
+    font-size: 1rem;
+  }
+}
 /* AJUSTES GENERALES */
 * {
   margin: 0;
