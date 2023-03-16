@@ -163,8 +163,13 @@ section .article3 {
   justify-content: space-evenly;
   font-family: "Julius Sans One", sans-serif;
 }
-section figure img {
+section figure .recientes {
   width: 500px;
+  transition: 0.8s;
+}
+section figure .recientes:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 section figure figcaption {
   text-align: center;

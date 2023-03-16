@@ -131,8 +131,15 @@ main
             font-family: 'Julius Sans One', sans-serif;
         }
         figure{
-            img{
-                width: 500px;}
+            .recientes{
+                width: 500px;
+                transition:0.8s ;
+            }
+            .recientes:hover{
+                transform: scale(1.05);
+                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+
             figcaption{
                 text-align: center;
                 margin-top: 10px;}
