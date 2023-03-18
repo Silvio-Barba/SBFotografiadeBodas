@@ -130,7 +130,6 @@ main{
 }
 }
 
-
     // Estilos para pantallas con ancho entre 1024px y 1200px
 @media screen and (min-width: variables.$tablet-width) and (max-width: variables.$desktop-width) {
 
@@ -525,9 +524,7 @@ section{
         text-align: center;
         font-size: 1.5rem;
     }
-    
-    
-    }
+}
 
 // Estilos para pantallas con ancho máximo de 767px
 @media screen and (max-width: variables.$mobile-width) {
@@ -711,8 +708,6 @@ section{
             width: 400px;
         }
     }
-         
-
     #galerias{
         .galeriasdebodas{
             width: 90vw;
@@ -726,6 +721,25 @@ section{
         }
     }
 }
+/* desde aca */
+/* main{
+    .teinvito{
+        #videocontainer{
+            .ss-embed-container-bXLwtF{
+                padding: 0px !important;
+                iframe{
+                    width: 90vw;
+                }
+                
+            }
+        }   
+}    
+} */
+/* hasta aca */
+
+
+
+
 /* Portfolio */
 .columna{
     div{

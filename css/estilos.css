@@ -570,7 +570,7 @@ textarea {
     font-size: 2.5rem;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
   /* index */
   .logosilvio {
     max-height: 64.76px;
@@ -681,7 +681,7 @@ textarea {
     font-size: 2.2rem;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   /* Index */
   main {
     /* section 1 */
@@ -981,6 +981,21 @@ textarea {
     font-size: 1.7rem;
     margin-bottom: 15px;
   }
+  /* desde aca */
+  /* main{
+      .teinvito{
+          #videocontainer{
+              .ss-embed-container-bXLwtF{
+                  padding: 0px !important;
+                  iframe{
+                      width: 90vw;
+                  }
+
+              }
+          }   
+  }    
+  } */
+  /* hasta aca */
   /* Portfolio */
   .columna div .imgtxt {
     width: 400px;
