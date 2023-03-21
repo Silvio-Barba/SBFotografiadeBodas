@@ -6,7 +6,9 @@
 @use './bodas';
 @use './portfolio';
 @use './contacto';
+@use './galeriasdebodas';
 @use './mqueries';
+
 
 /* AJUSTES GENERALES */
 * { 
@@ -15,6 +17,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Noto Sans Symbols 2';
+    overflow-x: hidden;
 }
 
 body{

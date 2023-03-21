@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* VARIABLES */
 /*--------------- HEADER------------------ */
 .navbar-collapse {
@@ -501,6 +502,53 @@ textarea {
   transition: transform 0.3s ease-in-out;
 }
 
+body #main_galerias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #main_galerias .titulo_galeria {
+  font-family: "Aboreto", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+}
+body #main_galerias .descripcion_titulo {
+  font-family: "Noto Sans Symbols 2";
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+body #main_galerias .descripcion_titulo hr {
+  margin-top: 0px;
+}
+body #main_galerias .articulo_galeria {
+  font-family: "Noto Sans Symbols 2";
+  font-size: 1.7rem;
+  text-align: left;
+  width: 1200px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+body #main_galerias .galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  margin-bottom: 5rem;
+}
+body #main_galerias .galeria .img_galeria {
+  width: 1000px;
+}
+body #main_galerias .div_volver {
+  margin-top: 5rem;
+}
+body #main_galerias .div_volver .volver {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 @media screen and (max-width: 1765px) {
   .wide_img_with_title .propuesta2 .tresfotos .imagen3 {
     width: 500px;
@@ -568,6 +616,21 @@ textarea {
   /* Portfolio */
   main .columna .txtport {
     font-size: 2.5rem;
+  }
+  /* Galerías de Bodas */
+  body #main_galerias .titulo_galeria {
+    font-size: 4rem;
+  }
+  body #main_galerias .descripcion_titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  body #main_galerias .articulo_galeria {
+    font-size: 1.7rem;
+    width: 900px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
   }
 }
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
@@ -679,6 +742,21 @@ textarea {
     padding-right: 4rem;
     padding-bottom: 4rem;
     font-size: 2.2rem;
+  }
+  /* Galerías de bodas */
+  body #main_galerias .titulo_galeria {
+    font-size: 4rem;
+  }
+  body #main_galerias .descripcion_titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  body #main_galerias .articulo_galeria {
+    font-size: 1.7rem;
+    width: 850px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -817,6 +895,28 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+  /* Galerías de bodas */
+  body #main_galerias .titulo_galeria {
+    font-size: 4rem;
+  }
+  body #main_galerias .descripcion_titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  body #main_galerias .articulo_galeria {
+    font-size: 1.7rem;
+    width: 700px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+  body #main_galerias .galeria {
+    row-gap: 0.5rem;
+    margin-bottom: 5rem;
+  }
+  body #main_galerias .galeria .img_galeria {
+    width: 700px;
   }
   /* revisar */
   .parrafos {
@@ -981,21 +1081,6 @@ textarea {
     font-size: 1.7rem;
     margin-bottom: 15px;
   }
-  /* desde aca */
-  /* main{
-      .teinvito{
-          #videocontainer{
-              .ss-embed-container-bXLwtF{
-                  padding: 0px !important;
-                  iframe{
-                      width: 90vw;
-                  }
-
-              }
-          }   
-  }    
-  } */
-  /* hasta aca */
   /* Portfolio */
   .columna div .imgtxt {
     width: 400px;
@@ -1018,6 +1103,35 @@ textarea {
   }
   .form .sectioncontacto .cajadecontacto .formulario textarea {
     width: 80vw;
+  }
+  /* Galerías de bodas */
+  body #main_galerias .titulo_galeria {
+    font-size: 3rem;
+  }
+  body #main_galerias .descripcion_titulo {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  body #main_galerias .articulo_galeria {
+    font-size: 1rem;
+    width: 90vw;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+  body #main_galerias .galeria {
+    row-gap: 0.5rem;
+    margin-bottom: 5rem;
+  }
+  body #main_galerias .galeria .img_galeria {
+    width: 95vw;
+  }
+  body #main_galerias .div_volver {
+    margin-top: 4rem;
+  }
+  body #main_galerias .div_volver .volver {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1279,6 +1393,37 @@ textarea {
   .form .sectioncontacto .cajadecontacto .formulario .botones .boton {
     width: 12rem;
   }
+  /* Galerías de bodas */
+  body #main_galerias .titulo_galeria {
+    font-size: 3rem;
+  }
+  body #main_galerias .descripcion_titulo {
+    width: 90vw;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  body #main_galerias .articulo_galeria {
+    font-size: 1rem;
+    width: 90vw;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  body #main_galerias .galeria {
+    row-gap: 0.3rem;
+    margin-bottom: 5rem;
+  }
+  body #main_galerias .galeria .img_galeria {
+    width: 95vw;
+  }
+  body #main_galerias .div_volver {
+    margin-top: 4rem;
+  }
+  body #main_galerias .div_volver .volver {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 /* AJUSTES GENERALES */
 * {
@@ -1289,6 +1434,7 @@ textarea {
 html {
   font-size: 62.5%;
   font-family: "Noto Sans Symbols 2";
+  overflow-x: hidden;
 }
 
 body {
