@@ -307,7 +307,8 @@ main .intro .imgtxt2 {
 #galerias {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  column-gap: 1rem;
+  justify-content: center;
 }
 #galerias .galeriasdebodas {
   width: 500px;
@@ -547,6 +548,13 @@ body #main_galerias .div_volver {
 body #main_galerias .div_volver .volver {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+body #main_galerias .sectionvideocl #videocl {
+  margin-bottom: 5rem;
+}
+body #main_galerias .sectionvideocl #videocl iframe {
+  width: 600px;
+  height: 400px;
 }
 
 @media screen and (max-width: 1765px) {
@@ -960,8 +968,10 @@ body #main_galerias .div_volver .volver {
   }
   main #grid-container .div4_main p {
     font-size: 2rem;
+    max-width: 80vw;
   }
   main #grid-container .div5_main {
+    padding: 0px;
     flex-direction: column;
   }
   main #grid-container .div5_main div .imagen {
@@ -1000,8 +1010,12 @@ body #main_galerias .div_volver .volver {
     display: inline;
   }
   section .article3 {
+    display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  section .article3 figure .recientes {
+    width: 455px;
   }
   .section4index .article-container {
     flex-direction: column;
@@ -1134,6 +1148,17 @@ body #main_galerias .div_volver .volver {
     padding-right: 1rem;
   }
 }
+@media screen and (max-width: 500px) {
+  /* INDEX */
+  main #grid-container .intro {
+    font-size: 4rem;
+  }
+  main #grid-container .div4_main p {
+    font-size: 1.6rem;
+    margin-top: 1.8rem;
+    width: 80vw;
+  }
+}
 @media screen and (max-width: 480px) {
   .navbar-toggler {
     margin-right: 3rem;
@@ -1141,8 +1166,10 @@ body #main_galerias .div_volver .volver {
   main #grid-container .intro {
     font-size: 3rem;
   }
-  main #grid-container .div4_main {
-    font-size: 1.8rem;
+  main #grid-container .div4_main p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    width: 80vw;
   }
   main #grid-container .div5_main {
     padding: 0px;
@@ -1423,6 +1450,203 @@ body #main_galerias .div_volver .volver {
     font-size: 0.8rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+}
+main .section1index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section1index .diventrada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 19rem;
+  font-family: "Aboreto", cursive;
+  font-size: 8rem;
+}
+main .section1index .diventrada p {
+  margin-top: 2rem;
+}
+main .section1index .diventrada .movimiento1 {
+  animation: entrar-izq-a-der 1.5s forwards;
+}
+@keyframes entrar-izq-a-der {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+main .section1index .diventrada .movimiento2 {
+  animation: entrar-izq-a-der 0.7s forwards;
+}
+@keyframes entrar-izq-a-der {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+main .section1index .diventrada .movimiento3 {
+  animation: entrar-der-a-izq 2s forwards;
+}
+@keyframes entrar-der-a-izq {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+main .section1index .subtituloindex {
+  font-family: "Noto Sans Symbols 2";
+  font-size: 4rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+main .section1index .subtituloindex .movimiento4 {
+  opacity: 0;
+  animation: entrar-abajo-a-arriba 0.5s forwards;
+  animation-delay: 1.5s;
+}
+@keyframes entrar-abajo-a-arriba {
+  from {
+    transform: translateY(600%);
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+main .article_section1_index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem;
+}
+main .article_section1_index div p {
+  font-family: "Noto Sans Symbols 2";
+  font-size: 3.5rem;
+  font-style: italic;
+  text-align: center;
+  padding: 6.5rem;
+}
+main a {
+  font-size: 2rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1560px) {
+  main .section1index .diventrada {
+    column-gap: 12rem;
+  }
+  main .section1index .subtituloindex {
+    font-size: 3.5rem;
+  }
+  main .article_section1_index {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  main .article_section1_index div p {
+    font-size: 2.5rem;
+    padding: 4rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1522px) {
+  main .section1index .diventrada {
+    column-gap: 8rem;
+  }
+  main .section1index .subtituloindex {
+    font-size: 3.3rem;
+  }
+  main .article_section1_index {
+    padding-left: 4rem;
+    padding-right: 1rem;
+  }
+  main .article_section1_index div .imagen {
+    width: 600px;
+  }
+  main .article_section1_index div p {
+    font-size: 2.5rem;
+    padding: 4rem;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  main .section1index .diventrada {
+    column-gap: 5rem;
+  }
+  main .section1index .diventrada p {
+    font-size: 6rem;
+  }
+  main .section1index .subtituloindex {
+    font-size: 2.2rem;
+  }
+  main .article_section1_index {
+    flex-direction: column;
+  }
+  main .article_section1_index div .imagen {
+    width: 700px;
+  }
+  main .article_section1_index div p {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .section1index .diventrada {
+    column-gap: 2rem;
+  }
+  main .section1index .diventrada p {
+    font-size: 4rem;
+  }
+  main .section1index .subtituloindex p {
+    font-size: 1.5rem;
+  }
+  main .article_section1_index {
+    flex-direction: column;
+    padding: 0px;
+  }
+  main .article_section1_index div .imagen {
+    width: 95vw;
+  }
+  main .article_section1_index div p {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  main .section1index .diventrada {
+    column-gap: 1.5rem;
+  }
+  main .section1index .diventrada p {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+  }
+  main .section1index .subtituloindex {
+    margin-bottom: 0px;
+  }
+  main .section1index .subtituloindex .hrindex {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  main .section1index .subtituloindex p {
+    font-size: 1rem;
+  }
+  main .article_section1_index {
+    flex-direction: column;
+    padding: 0px;
+  }
+  main .article_section1_index div .imagen {
+    width: 90vw;
+  }
+  main .article_section1_index div p {
+    font-size: 1rem;
+    padding: 2rem;
   }
 }
 /* AJUSTES GENERALES */

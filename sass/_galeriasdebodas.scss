@@ -50,8 +50,16 @@ body{
             .volver{
                 padding-left:5rem;
                 padding-right: 5rem;
+            }         
+        }
+        .sectionvideocl{
+            #videocl{
+                margin-bottom: 5rem;
+                iframe{
+                    width: 600px;
+                    height: 400px;
+                }
             }
-
         }
     }
 }

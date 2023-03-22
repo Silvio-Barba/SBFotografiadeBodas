@@ -613,10 +613,12 @@ main {
             font-size: 5rem;
         }
         .div4_main{
-            p{font-size: 2rem;}
+            p{font-size: 2rem;
+            max-width: 80vw;}
             
         }
         .div5_main{
+            padding: 0px;
             flex-direction: column;
             div{
                 .imagen{
@@ -674,8 +676,14 @@ section{
 }
 section{
     .article3{
+        display: flex;
         flex-direction: column;
         align-items: center;
+        figure{
+            .recientes{
+                width: 455px;
+            }
+        }
     }
 }
 .section4index{
@@ -867,6 +875,24 @@ body{
 
 
 }
+
+@media screen and (max-width: 500px) {
+    /* INDEX */
+    main{
+        #grid-container{
+            .intro {
+                font-size: 4rem;
+            }
+            .div4_main{
+                p{
+                    font-size: 1.6rem;
+                    margin-top: 1.8rem;
+                    width: 80vw;
+                }
+        }
+    }
+}
+}
     
 @media screen and (max-width: 480px) {
     .navbar-toggler {
@@ -879,7 +905,12 @@ main{
             font-size: 3rem;
         }
         .div4_main{
-            font-size: 1.8rem;
+
+            p{
+                font-size: 1.6rem;
+                margin-top: 1rem;
+                width: 80vw;
+            }
         }
         .div5_main{
             padding: 0px;
