@@ -37,45 +37,95 @@ main
         }
 
              /* section 1 */                
-    #grid-container{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(7, 1fr);
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        background-color: variables.$crema;
+    /* SECTION 1 */
+main{
+    .section1index{
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-items: center;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-        }
-        .div1_main {
-            grid-area: 1 / 1 / 2 / 3;}
-        .div2_main{
-            grid-area: 1 / 3 / 2 / 5;}
-        .div3_main{
-            grid-area: 1 / 5 / 2 / 7;}
-        .div4_main{
-            grid-area: 2 / 1 / 3 / 7;
-            p{  text-align: center;
-                font-size: 4rem;
-                font-style: italic;
-                font-family: variables.$small;}}
-        .div5_main{
-            grid-area: 3 / 1 / 8 / 7;
-            padding: 50px;
+        overflow-x: hidden;
+        .diventrada{
             display: flex;
-            align-items: center;
-            justify-content: space-around;
-            div {
-                p{
-                    text-align: center;
-                    font-size: 3.5rem;
-                    font-style: italic;
-                    font-family: 'Noto Sans Symbols 2';
-                    padding: 65px;}
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 19rem;
+            font-family: variables.$big;
+            font-size: 8rem;
+            
+            p{
+                margin-top: 2rem;
+            }
+        
+        .movimiento1 {
+            opacity: 0;
+            animation: entrar-izq-a-der 1.5s forwards;
+            overflow: hidden;
+        }
+        @keyframes entrar-izq-a-der {
+            from {transform: translateX(-200%);}
+            to {transform: translateX(0%);
+                opacity: 1;}
+        }
+        .movimiento2 {
+            opacity: 0;
+            animation: entrar-izq-a-der 0.7s forwards;
+            overflow: hidden;
+        }
+        @keyframes entrar-izq-a-der {
+            from {transform: translateX(-300%);}
+            to {transform: translateX(0%);
+                opacity: 1;}
+        }
+        .movimiento3 {
+            opacity: 0;
+            animation: entrar-der-a-izq 2s forwards;
+            overflow: hidden;
+        }
+        @keyframes entrar-der-a-izq {
+            from {transform: translateX(+200%);}
+            to {transform: translateX(0%);
+                opacity: 1;}
+        }
+        }
+        .subtituloindex{
+            
+            .movimiento4 {
+                opacity: 0;
+                animation: entrar-abajo-a-arriba 0.5s forwards;
+                animation-delay: 1.5s;
+            }
+            @keyframes entrar-abajo-a-arriba {
+                from {transform: translateY(+600%);}
+                to {transform: translateY(0%);
+                opacity: 1;}
+            }
+            font-family: variables.$small;
+            font-size: 4rem;
+            font-style: italic;
+            margin-bottom: 3rem;
+            
+            
+        }
+        
+    }
+    .article_section1_index{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5rem;
+        div{
+            p{
+                font-family: variables.$small;
+                font-size: 3.5rem;
+                font-style: italic;
+                text-align: center;
+                padding: 6.5rem;
             }
         }
+    }
+    
+}
 
 
     /* section 2 */
