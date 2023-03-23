@@ -156,6 +156,10 @@ main .article_section1_index div p {
   text-align: center;
   padding: 6.5rem;
 }
+main .hrindex {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
 
 /* section 2 */
 section .section2index {
@@ -1157,6 +1161,33 @@ body #main_galerias .sectionvideocl #videocl iframe {
   main {
     /* Section 2 index */
   }
+  main .section1index .diventrada {
+    column-gap: 2rem;
+  }
+  main .section1index .diventrada p {
+    font-size: 2.8rem;
+  }
+  main .section1index .subtituloindex p {
+    font-size: 1.2rem;
+  }
+  main .article_section1_index {
+    flex-direction: column;
+    padding: 0px;
+  }
+  main .article_section1_index div .imagen {
+    width: 95vw;
+  }
+  main .article_section1_index div p {
+    font-size: 2rem;
+    padding: 3rem;
+    margin-bottom: 0;
+  }
+  main .hrindex {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   main section .section2index div .imagen {
     margin-top: 15px;
   }
@@ -1440,6 +1471,90 @@ body #main_galerias .sectionvideocl #videocl iframe {
     padding-right: 0.5rem;
   }
 }
+#landingbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 100vh;
+}
+#landingbody .logocentrado .logosilvio {
+  margin-top: 1.5rem;
+  max-height: 84.76px;
+}
+#landingbody .texto_y_boton {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+}
+#landingbody .texto_y_boton .divbutton {
+  background-color: rgb(245, 245, 245);
+  border: black;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 1.2s;
+}
+#landingbody .texto_y_boton .divbutton .button {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+#landingbody .texto_y_boton .divbutton:hover {
+  transform: scale(1.2);
+}
+#landingbody .texto_y_boton .landingtexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#landingbody .texto_y_boton .landingtexto p {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(217, 217, 217);
+  font-size: 2rem;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  #landingbody .texto_y_boton {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    align-items: center;
+    position: unset;
+    position: absolute;
+    top: 70%;
+    left: unset;
+  }
+}
+@media screen and (max-width: 767px) {
+  #landingbody .logocentrado .logosilvio {
+    max-height: 74.76px;
+  }
+  #landingbody .texto_y_boton {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    align-items: center;
+    position: unset;
+    position: absolute;
+    top: 70%;
+    left: unset;
+  }
+}
+/* position: absolute;
+           top: 50%;
+           left: 80%;
+           transform: translate(-50%, -50%); */
 /* AJUSTES GENERALES */
 * {
   margin: 0;

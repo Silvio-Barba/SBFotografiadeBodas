@@ -831,7 +831,41 @@ body{
         }
 
 main{
+    .section1index{
+        .diventrada{
+            p{
+                font-size: 2.8rem;
+            }
+            column-gap: 2rem;
+        }
+        .subtituloindex{
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .article_section1_index{
+        flex-direction: column;
+        padding: 0px;
+        div{
+            .imagen{
+                width: 95vw;
+            }
+            p{
+                font-size: 2rem;
+                padding: 3rem;
+                margin-bottom: 0;
+            }
+        }
+    }
 
+    .hrindex{
+        margin-right: 5rem;
+        margin-left: 5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        
+    }    
 
     /* Section 2 index */
     section{
