@@ -8,13 +8,13 @@
     }
 @mixin txt_right ($der: right){
     text-align: $der;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 10px;
     font-family: variables.$small;
 }
 @mixin txt_left ($lft: left){
     text-align: $lft;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 10px;
     font-family: variables.$small;
 }
@@ -31,11 +31,7 @@
 main
     section {
         img {width: 100vw;}}
-    .intro{
-        font-size: 8rem;
-        font-family: 'Aboreto', cursive;
-        }
-
+    
              /* section 1 */                
     /* SECTION 1 */
 main{
@@ -117,7 +113,7 @@ main{
         div{
             p{
                 font-family: variables.$small;
-                font-size: 3.5rem;
+                font-size: 3rem;
                 font-style: italic;
                 text-align: center;
                 padding: 6.5rem;
@@ -157,13 +153,15 @@ main{
                     align-items: center;
                     p{  
                         @include textogrande();
-                        padding: 10px;
+                        padding: 10px 0px 0px 10px;
+                        margin: 0px;
                     }
                     
                 }
                 div{
                     .txt_lft{
                         @include txt_left();
+                        margin-right: 2rem;
                     }
 
                 }
@@ -227,7 +225,7 @@ main{
                 .parrafogracias{
                     font-family: variables.$small;
                     text-align: right;
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                     padding: 10px;
                 }
                 .writemebutton{

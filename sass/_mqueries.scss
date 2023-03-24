@@ -348,7 +348,7 @@ body{
                 p{
                     font-size: 5.5rem;
                     margin: 0px;
-                    padding: 0px;
+                    padding: 0px 0px 0px 10px;
                 }
             }
             div{
@@ -594,7 +594,7 @@ section{
                 p{
                     font-size: 4rem;
                     margin: 0px;
-                    padding: 0px;
+                    padding: 0px 0px 0px 10px;
                 }
             }
             div{
@@ -699,7 +699,7 @@ main{
             padding: 7px;
             div{
                 .img600{
-                    width: 590px;
+                    width: 95vw;
                     
                 }
             }
@@ -717,7 +717,7 @@ main{
         .tresfotos{
             flex-direction: column;
             .imagen3{
-                width: 590px;
+                width: 95vw;
             }
         }
         .textopropuesta{
@@ -840,7 +840,7 @@ main{
         }
         .subtituloindex{
             p{
-                font-size: 1.2rem;
+                max-width: 85vw;
             }
         }
     }
@@ -870,6 +870,22 @@ main{
     /* Section 2 index */
     section{
         .section2index{
+            padding-right: 15px;
+            padding-left: 15px;
+            .divconflex{
+                .divconflex2{
+                    .txt_lft{
+                        font-size: 1.8rem;
+                    }
+                    
+                }
+                div{
+                    .txt_lft{
+                        font-size: 1.8rem;
+                    }
+                }
+                
+            }
             div{
                 .imagen{
                     margin-top: 15px;
@@ -877,6 +893,8 @@ main{
             }
         }
     }
+
+    /*  Section 3 index*/
     section{
         .article3{
             font-size: 18px;
