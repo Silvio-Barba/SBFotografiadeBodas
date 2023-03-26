@@ -1563,6 +1563,18 @@ body #main_galerias .sectionvideocl #videocl iframe {
            top: 50%;
            left: 80%;
            transform: translate(-50%, -50%); */
+main .articlegracias {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+main .articlegracias .form_gracias {
+  text-align: center;
+  font-size: 2rem;
+}
+
 /* AJUSTES GENERALES */
 * {
   margin: 0;
