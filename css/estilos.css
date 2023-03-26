@@ -430,11 +430,11 @@ main .columna {
 }
 .form .form_title {
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 3.5rem;
   color: #FDF0E5;
 }
 .form .form_subtitle {
-  font-size: 3.5rem;
+  font-size: 2rem;
   align-content: center;
   padding: 10px;
   font-family: "Quicksand", sans-serif;
@@ -1255,7 +1255,7 @@ body #main_galerias .sectionvideocl #videocl iframe {
     font-size: 1.5rem;
   }
   .form .form_subtitle {
-    font-size: 17px;
+    font-size: 1.4rem;
   }
   .form .sectioncontacto .cajadecontacto .formulario {
     display: flex;
@@ -1429,7 +1429,7 @@ body #main_galerias .sectionvideocl #videocl iframe {
     font-size: 1.5rem;
   }
   .form .form_subtitle {
-    font-size: 17px;
+    font-size: 1.4rem;
   }
   .form .sectioncontacto .cajadecontacto .formulario {
     display: flex;
