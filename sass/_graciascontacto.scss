@@ -1,15 +1,43 @@
-main{
+@use 'variables';
+
+#graciasmain{
+    background-image: url(../img/backgrounds/back-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    
     .articlegracias{
-        display: flex;
-        width: 100vw;
         height: 80vh;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        
+        justify-content: center;
+       
         .form_gracias{
+            margin-bottom: 5rem;
             text-align: center;
-            font-size: 2rem;
-            
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255)
+
+        }
+        .graciasbutton{
+            background-color: rgb(245, 245, 245);
+            border:black;
+            padding: 15px 32px;
+            cursor: pointer;
+            border-radius: 15px;
+            transition: 1.2s;
+                    
+            .button{
+                font-family: 'Quicksand', sans-serif;
+                color: black;
+                font-size: 1.5rem;
+            }
+        }
+        .graciasbutton:hover{
+            transform: scale(1.2);
+
         }
 }
 }
